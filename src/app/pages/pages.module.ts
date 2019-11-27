@@ -19,6 +19,15 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 import { PromesasComponent } from './promesas/promesas.component';
 import { PantallaMonitorComponent } from './principal/pantalla-monitor/pantalla-monitor.component';
 import { PuntoVentaComponent } from './punto-venta/punto-venta/punto-venta.component';
+import { UsuariosComponent } from './administracion/catalogos/usuarios/usuarios.component';
+import { ProveedoresComponent } from './administracion/catalogos/proveedores/proveedores.component';
+import { ProductosComponent } from './administracion/catalogos/productos/productos.component';
+import { ClientesComponent } from './administracion/catalogos/clientes/clientes.component';
+import { CatalogosComponent } from './administracion/catalogos.component';
+import { ClientesPageComponent } from './clientes/clientes-page.component';
+import { ClientesSuscripcionComponent } from './clientes/clientes-suscripcion/clientes-suscripcion.component';
+import { ClientesRutinaComponent } from './clientes/clientes-rutina/clientes-rutina.component';
+import { ClientesDashboardComponent } from './clientes/clientes-dashboard/clientes-dashboard.component';
 
 
 // temporal
@@ -36,7 +45,16 @@ import { PuntoVentaComponent } from './punto-venta/punto-venta/punto-venta.compo
     AccountSettingsComponent,
     PromesasComponent,
     PantallaMonitorComponent,
-    PuntoVentaComponent
+    PuntoVentaComponent,
+    UsuariosComponent,
+    ProveedoresComponent,
+    ProductosComponent,
+    ClientesComponent,
+    CatalogosComponent,
+    ClientesPageComponent,
+    ClientesSuscripcionComponent,
+    ClientesRutinaComponent,
+    ClientesDashboardComponent
     ],
     exports: [
     DashboardComponent,
