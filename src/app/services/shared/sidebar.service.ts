@@ -41,7 +41,6 @@ export class SidebarService {
         { titulo: 'Suscripciones', url: '/dashboard', icono: 'mdi mdi-plus' },
         { titulo: 'Rutinas', url: '/dashboard', icono: 'mdi mdi-plus' },
         { titulo: 'Dashboard Clientes', url: '/dashboard', icono: 'mdi mdi-plus' },
-        { titulo: 'Informacion Cuenta', url: '/dashboard', icono: 'mdi mdi-plus' },
       ]
     }
   ];

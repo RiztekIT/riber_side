@@ -22,6 +22,10 @@ import { ProveedoresComponent } from './administracion/catalogos/proveedores/pro
 import { ProductosComponent } from './administracion/catalogos/productos/productos.component';
 import { ClientesComponent } from './administracion/catalogos/clientes/clientes.component';
 import { CatalogosComponent } from './administracion/catalogos.component';
+import { ClientesPageComponent } from './clientes/clientes-page.component';
+import { ClientesSuscripcionComponent } from './clientes/clientes-suscripcion/clientes-suscripcion.component';
+import { ClientesRutinaComponent } from './clientes/clientes-rutina/clientes-rutina.component';
+import { ClientesDashboardComponent } from './clientes/clientes-dashboard/clientes-dashboard.component';
 
 
 // temporal
@@ -42,7 +46,11 @@ import { CatalogosComponent } from './administracion/catalogos.component';
     ProveedoresComponent,
     ProductosComponent,
     ClientesComponent,
-    CatalogosComponent
+    CatalogosComponent,
+    ClientesPageComponent,
+    ClientesSuscripcionComponent,
+    ClientesRutinaComponent,
+    ClientesDashboardComponent
     ],
     exports: [
     DashboardComponent,

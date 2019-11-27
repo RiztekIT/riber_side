@@ -1,1 +1,65 @@
-<p>catalogos works!</p>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h2>Catalogos</h2>
+                <div class="card">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs profile-tab" role="tablist">
+                        <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#clientes" role="tab" aria-expanded="true">Clientes</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#productos" role="tab" aria-expanded="false">Productos</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#proveedores" role="tab" aria-expanded="false">Proveedores</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#usuarios" role="tab" aria-expanded="false">Usuarios</a> </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <!--Cliente tab-->
+                        <div class="tab-pane active" id="clientes" role="tabpanel">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Catalogo de Clientes</h4>
+                                    <h6 class="card-subtitle">Mostrando Clientes registrados</h6>
+
+                                    <app-clientes></app-clientes>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Productos tab-->
+                        <div class="tab-pane" id="productos" role="tabpanel">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Catalogo de Productos</h4>
+                                    <h6 class="card-subtitle">Mostrando catalogo de Produtos</h6>
+
+                                    <app-productos></app-productos>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Proveedores tab-->
+                        <div class="tab-pane" id="proveedores" role="tabpanel">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Catalogo de Proveedores</h4>
+                                    <h6 class="card-subtitle">Mostrando catalogo de Proveedores</h6>
+
+                                    <app-proveedores></app-proveedores>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Usuarios tab-->
+                        <div class="tab-pane" id="usuarios" role="tabpanel">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Catalogo de Usuarios</h4>
+                                    <h6 class="card-subtitle">Mostrando catalogo de usuarios</h6>
+
+                                    <app-usuarios></app-usuarios>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
