@@ -14,10 +14,10 @@ export class SidebarService {
       ]
     },
     {
-      titulo: 'Catalogos',
+      titulo: 'Administracion',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Dashboard', url: '/dashboard', icono: 'mdi mdi-plus' },
+        { titulo: 'Catalogos', url: '/administracion-catalogos', icono: 'mdi mdi-plus' },
       ]
     },
     {

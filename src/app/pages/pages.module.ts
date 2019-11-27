@@ -17,6 +17,11 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { UsuariosComponent } from './administracion/catalogos/usuarios/usuarios.component';
+import { ProveedoresComponent } from './administracion/catalogos/proveedores/proveedores.component';
+import { ProductosComponent } from './administracion/catalogos/productos/productos.component';
+import { ClientesComponent } from './administracion/catalogos/clientes/clientes.component';
+import { CatalogosComponent } from './administracion/catalogos.component';
 
 
 // temporal
@@ -32,7 +37,12 @@ import { PromesasComponent } from './promesas/promesas.component';
     IncrementadorComponent,
     GraficoDonaComponent,
     AccountSettingsComponent,
-    PromesasComponent
+    PromesasComponent,
+    UsuariosComponent,
+    ProveedoresComponent,
+    ProductosComponent,
+    ClientesComponent,
+    CatalogosComponent
     ],
     exports: [
     DashboardComponent,
