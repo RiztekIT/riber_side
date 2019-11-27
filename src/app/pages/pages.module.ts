@@ -17,6 +17,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { PantallaMonitorComponent } from './principal/pantalla-monitor/pantalla-monitor.component';
+import { PuntoVentaComponent } from './punto-venta/punto-venta/punto-venta.component';
 
 
 // temporal
@@ -32,7 +34,9 @@ import { PromesasComponent } from './promesas/promesas.component';
     IncrementadorComponent,
     GraficoDonaComponent,
     AccountSettingsComponent,
-    PromesasComponent
+    PromesasComponent,
+    PantallaMonitorComponent,
+    PuntoVentaComponent
     ],
     exports: [
     DashboardComponent,

@@ -10,7 +10,7 @@ export class SidebarService {
       titulo: 'Principal',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Dashboard', url: '/dashboard', icono: 'mdi mdi-plus' },
+        { titulo: 'Pantalla Monitor', url: '/pantalla-monitor', icono: 'mdi mdi-plus' },
       ]
     },
     {
@@ -24,7 +24,7 @@ export class SidebarService {
       titulo: 'Punto Venta',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Punto Venta', url: '/dashboard', icono: 'mdi mdi-plus' },
+        { titulo: 'Punto Venta', url: '/punto-venta', icono: 'mdi mdi-plus' },
       ]
     },
     {

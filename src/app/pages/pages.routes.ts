@@ -6,6 +6,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { PantallaMonitorComponent } from './principal/pantalla-monitor/pantalla-monitor.component';
+import { PuntoVentaComponent } from './punto-venta/punto-venta/punto-venta.component';
 
 const pagesRoutes: Routes = [
 
@@ -20,6 +22,8 @@ const pagesRoutes: Routes = [
             { path: 'account-settings', component: AccountSettingsComponent },
             { path: 'graficas1', component: Graficas1Component },
             { path: 'promesas', component: PromesasComponent },
+            { path: 'pantalla-monitor', component: PantallaMonitorComponent },
+            { path: 'punto-venta', component: PuntoVentaComponent },
             { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 
         ]
