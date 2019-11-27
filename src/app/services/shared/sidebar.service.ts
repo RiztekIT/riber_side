@@ -28,13 +28,6 @@ export class SidebarService {
       ]
     },
     {
-      titulo: 'Monitor General',
-      icono: 'mdi mdi-gauge',
-      submenu: [
-        { titulo: 'Monitor General', url: '/dashboard', icono: 'mdi mdi-plus' },
-      ]
-    },
-    {
       titulo: 'Clientes',
       icono: 'mdi mdi-gauge',
       submenu: [
