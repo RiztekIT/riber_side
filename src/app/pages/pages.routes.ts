@@ -8,6 +8,9 @@ import { ProductosComponent } from './administracion/catalogos/productos/product
 import { ProveedoresComponent } from './administracion/catalogos/proveedores/proveedores.component';
 import { UsuariosComponent } from './administracion/catalogos/usuarios/usuarios.component';
 import { CatalogosComponent } from './administracion/catalogos.component';
+import { ClientesDashboardComponent } from './clientes/clientes-dashboard/clientes-dashboard.component';
+import { ClientesRutinaComponent } from './clientes/clientes-rutina/clientes-rutina.component';
+import { ClientesSuscripcionComponent } from './clientes/clientes-suscripcion/clientes-suscripcion.component';
 
 const pagesRoutes: Routes = [
 
@@ -23,6 +26,9 @@ const pagesRoutes: Routes = [
             { path: 'administracion-productos', component: ProductosComponent },
             { path: 'administracion-proveedores', component: ProveedoresComponent },
             { path: 'administracion-usuarios', component: UsuariosComponent },
+            { path: 'clientes-dashboard', component: ClientesDashboardComponent },
+            { path: 'clientes-rutina', component: ClientesRutinaComponent },
+            { path: 'clientes-suscripcion', component: ClientesSuscripcionComponent },
             { path: 'account-settings', component: AccountSettingsComponent },
             { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 
