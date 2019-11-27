@@ -1,1 +1,201 @@
-<p>punto-venta works!</p>
+<div class="row">
+    <!-- contenedor general izquierdo -->
+    <div class="col-md-8">
+
+        <!-- Descripcion del producto con imagen -->
+        <div class="col-md-12">
+            <div class="card card-outline-inverse">
+                <div class="card-header">
+                    <h4 class="m-b-0 text-white">Informacion</h4>
+                </div>
+                <div class="card-body">
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img class="img-fluid" src="assets/images/gallery/suplementos.jfif">
+                        </div>
+                        <div class="col-md-5">
+                            <form class="form-material m-t-40">
+                                <div class="form-group">
+                                    <label style="color: black;">Nombre</label>
+                                    <input type="text" class="form-control form-control-line" value="" placeholder="Nombre del Producto" readonly>
+                                    <label style="color: black;">Color</label>
+                                    <input type="text" class="form-control form-control-line" value="" placeholder="Color" readonly>
+                                    <label style="color: black;">Talla</label>
+                                    <input type="text" class="form-control form-control-line" value="" placeholder="Talla" readonly>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Div de lista de productos, se despliega en row -->
+        <div class="col-md-12">
+            <div class="card card-outline-inverse">
+                <div class="card-header">
+                    <h4 class="m-b-0 text-white">Lista de Productos</h4>
+                </div>
+                <div class="card-body" style="margin-top: -50px;">
+
+                    <form class="form-material m-t-40">
+                        <div class="form-group">
+                            <label style="color: black;">Codigo Del Producto</label>
+                            <input type="text" class="form-control form-control-line" placeholder="Ingresar Codigo Del Producto"> </div>
+                    </form>
+
+                    <div class="table-responsive m-t-40">
+                        <table id="myTable" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>ID producto</th>
+                                    <th>Nombre Producto</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th>Descuento</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>fsd9847984 </td>
+                                    <td>Membresia 1 Mes</td>
+                                    <td>$300</td>
+                                    <td>1</td>
+                                    <td>0.0%</td>
+                                    <td>$300.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>bfw1234567 </td>
+                                    <td>Suplementos Alimenticios</td>
+                                    <td>$200</td>
+                                    <td>1</td>
+                                    <td>0.0%</td>
+                                    <td>$200.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Informacion de la venta ASIDE -->
+    <div class="col-md-4">
+        <div class="card card-outline-inverse">
+            <div class="card-header">
+                <h4 class="m-b-0 text-white">Informacion De Compra
+                </h4>
+            </div>
+            <div class="card-body" style="margin-top: -50px;">
+                <form class="form-material m-t-40">
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="membresiaCheck">
+                            <label class="form-check-label" for="membresiaCheck">Membresia</label>
+                        </div>
+                        <hr>
+                        <label style="color: black;">ID de Compra</label>
+                        <input type="text" class="form-control form-control-line" value="" readonly> </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label style="color: black;">ID Cliente</label>
+                            <input type="text" class="form-control"> </div>
+                        <label style="color: black;">Fecha de Pago</label>
+                        <input type="date" class="form-control" placeholder="Email"></div>
+                    <div class="form-group">
+                        <label style="color: black;">Descuento</label>
+                        <input type="text" class="form-control" placeholder="Descuento"> </div>
+                    <div class="form-group">
+                        <label style="color: black;">Sub Total</label>
+                        <input type="number" class="form-control" placeholder="Sub total"> </div>
+                </form>
+                <div>
+
+
+
+                    <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+                            Cobrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<!-- tarjeta de credito o efectivo input
+                            total
+                            pago con: cambio -->
+
+
+<!-- Funcionalidad del Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Venta Realizada</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Cantidad En Efectivo"></div>
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Cantidad En Tarjeta De Credito"></div>
+
+
+                <div class="card card-outline-inverse">
+                    <div class="card-header">
+                        <h4 class="m-b-0 text-white">Total a Pagar</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">$500.00</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Card de pago -->
+                    <div class="col-md-6">
+                        <div class="card card-outline-inverse">
+                            <div class="card-header">
+                                <h4 class="m-b-0 text-white">Total Pagado:</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title">$500.00</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card de Cambio -->
+                    <div class="col-md-6">
+                        <div class="card card-outline-inverse">
+                            <div class="card-header">
+                                <h4 class="m-b-0 text-white">Cambio:</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title">$0</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Listo!</button>
+            </div>
+        </div>
+    </div>
+</div>
