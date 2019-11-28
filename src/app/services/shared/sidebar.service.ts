@@ -7,33 +7,33 @@ export class SidebarService {
 
   menu: any = [
     {
-      titulo: 'Principal',
-      icono: 'mdi mdi-gauge',
+      titulo: '  Principal',
+      icono: 'fa fa-address-card',
       submenu: [
-        { titulo: 'Pantalla Monitor', url: '/pantalla-monitor', icono: 'mdi mdi-plus' },
+        { titulo: 'Pantalla Monitor', url: '/pantalla-monitor', icono: 'fa fa-user-o' },
       ]
     },
     {
-      titulo: 'Administracion',
-      icono: 'mdi mdi-gauge',
+      titulo: '  Administracion',
+      icono: 'fa fa-desktop',
       submenu: [
-        { titulo: 'Catalogos', url: '/administracion-catalogos', icono: 'mdi mdi-plus' },
+        { titulo: 'Catalogos', url: '/administracion-catalogos', icono: 'fa fa-list-ul' },
       ]
     },
     {
-      titulo: 'Punto Venta',
-      icono: 'mdi mdi-gauge',
+      titulo: '  Punto Venta',
+      icono: 'fa fa-credit-card',
       submenu: [
-        { titulo: 'Punto Venta', url: '/punto-venta', icono: 'mdi mdi-plus' },
+        { titulo: 'Punto Venta', url: '/punto-venta', icono: 'fa fa-money' },
       ]
     },
     {
-      titulo: 'Clientes',
-      icono: 'mdi mdi-gauge',
+      titulo: '  Clientes',
+      icono: 'fa fa-users',
       submenu: [
-        { titulo: 'Suscripciones', url: '/clientes-suscripcion', icono: 'mdi mdi-plus' },
-        { titulo: 'Rutinas', url: '/clientes-rutina', icono: 'mdi mdi-plus' },
-        { titulo: 'Dashboard Clientes', url: '/clientes-dashboard', icono: 'mdi mdi-plus' },
+        { titulo: 'Suscripciones', url: '/clientes-suscripcion', icono: 'fa fa-address-book-o' },
+        { titulo: 'Rutinas', url: '/clientes-rutina', icono: 'fa fa-trophy' },
+        { titulo: 'Dashboard Clientes', url: '/clientes-dashboard', icono: 'fa fa-user-circle' },
       ]
     }
   ];
