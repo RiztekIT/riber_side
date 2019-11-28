@@ -28,6 +28,7 @@ import { ClientesPageComponent } from './clientes/clientes-page.component';
 import { ClientesSuscripcionComponent } from './clientes/clientes-suscripcion/clientes-suscripcion.component';
 import { ClientesRutinaComponent } from './clientes/clientes-rutina/clientes-rutina.component';
 import { ClientesDashboardComponent } from './clientes/clientes-dashboard/clientes-dashboard.component';
+import { SuscripcionesComponent } from './administracion/catalogos/suscripciones/suscripciones.component';
 
 
 // temporal
@@ -54,7 +55,8 @@ import { ClientesDashboardComponent } from './clientes/clientes-dashboard/client
     ClientesPageComponent,
     ClientesSuscripcionComponent,
     ClientesRutinaComponent,
-    ClientesDashboardComponent
+    ClientesDashboardComponent,
+    SuscripcionesComponent
     ],
     exports: [
     DashboardComponent,

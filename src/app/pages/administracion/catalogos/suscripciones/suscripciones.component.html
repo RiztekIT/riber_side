@@ -1,5 +1,7 @@
 <div class="row">
     <div class="col-12">
+
+
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive">
@@ -8,9 +10,8 @@
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre</th>
-                                <th>Descripcion</th>
+                                <th>Detalles</th>
                                 <th>Precio</th>
-                                <th>Stock</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -18,51 +19,27 @@
                             <tr>
                                 <td>1</td>
                                 <td>
-                                    Proteina
+                                    Suscripcion
                                 </td>
-                                <td>Bolsita con 50 gramos</td>
-                                <td>$15.00</td>
-                                <td>15</td>
+                                <td>Suscripcion de 1 mes</td>
+                                <td>$300.00</td>
                                 <td>
                                     <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>
-                                    Gatorade limon
-                                </td>
-                                <td>Gatorade 600ml</td>
-                                <td>$22.00</td>
-                                <td>7</td>
-                                <td>
-                                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>
-                                    Monster
-                                </td>
-                                <td>Bebida energizante 600ml</td>
-                                <td>$35.00</td>
-                                <td>22</td>
-                                <td>
-                                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button>
-                                </td>
-                            </tr>
+
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td colspan="2">
-                                    <button type="button" class="btn btn-info btn-rounded" data-toggle="modal" data-target="#add-producto">Agregar Nuevo Producto</button>
+                                    <button type="button" class="btn btn-info btn-rounded" data-toggle="modal" data-target="#add-sus">Agregar Nueva Suscripcion</button>
                                 </td>
-                                <div id="add-producto" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div id="add-sus" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                                <h4 class="modal-title" id="myModalLabel">Agregar Nuevo Producto</h4>
+                                                <h4 class="modal-title" id="myModalLabel">Agregar Nueva Suscripcion</h4>
                                             </div>
                                             <div class="modal-body">
                                                 <form class="form-horizontal form-material">
@@ -70,21 +47,19 @@
                                                         <div class="col-md-12 m-b-20">
                                                             <input type="text" class="form-control" placeholder="Nombre"> </div>
                                                         <div class="col-md-12 m-b-20">
-                                                            <input type="text" class="form-control" placeholder="Descripcion"> </div>
+                                                            <input type="text" class="form-control" placeholder="Detalles"> </div>
                                                         <div class="col-md-12 m-b-20">
                                                             <input type="text" class="form-control" placeholder="Precio"> </div>
-                                                        <div class="col-md-12 m-b-20">
-                                                            <input type="text" class="form-control" placeholder="Stock"> </div>
-                                                        <div class="col-md-12 m-b-20">
-                                                            <div class="fileupload btn btn-danger btn-rounded waves-effect waves-light"><span><i class="ion-upload m-r-5"></i>Subir Imagen Producto</span>
-                                                                <input type="file" class="upload"> </div>
-                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 m-b-20">
+                                                        <div class="fileupload btn btn-danger btn-rounded waves-effect waves-light"><span><i class="ion-upload m-r-5"></i>Subir Imagen Suscripcion</span>
+                                                            <input type="file" class="upload"> </div>
                                                     </div>
                                                 </form>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
-                                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Guardar</button>
+                                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancelar</button>
                                             </div>
                                         </div>
                                         <!-- /.modal-content -->

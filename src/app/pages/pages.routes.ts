@@ -35,7 +35,7 @@ const pagesRoutes: Routes = [
             { path: 'account-settings', component: AccountSettingsComponent },
             { path: 'pantalla-monitor', component: PantallaMonitorComponent },
             { path: 'punto-venta', component: PuntoVentaComponent },
-            { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+            { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 
         ]
     }
